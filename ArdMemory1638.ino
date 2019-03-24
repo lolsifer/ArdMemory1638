@@ -2,6 +2,11 @@
 
 #define MAX_MEMORY 100
 
+/*
+ *    Connect to your TM1638 to pins 8, 9 & 7 (Data, Clock & Strobe)
+ *
+ /
+
 TM1638 module(8, 9, 7);
 TM1638* mod = &module;
 
